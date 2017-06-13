@@ -1,0 +1,11 @@
+[Protocol]
+exec=talant-qt '%u'
+protocol=talant
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

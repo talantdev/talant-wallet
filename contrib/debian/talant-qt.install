@@ -1,0 +1,6 @@
+talant-qt usr/bin
+share/pixmaps/talant32.xpm usr/share/pixmaps
+share/pixmaps/talant16.xpm usr/share/pixmaps
+share/pixmaps/talant128.png usr/share/pixmaps
+debian/talant-qt.desktop usr/share/applications
+debian/talant-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Talant
+Comment=Talant P2P Cryptocurrency
+Comment[fr]=Talant, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Talant, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/talant-qt %u
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/talant128.png
+MimeType=x-scheme-handler/talant;
+Categories=Office;
