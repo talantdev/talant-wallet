@@ -58,14 +58,12 @@ Build requirements:
 	sudo apt-get install build-essential
 	sudo apt-get install libssl-dev
 
-for Ubuntu 12.04:
+for Ubuntu 12.04 and higher:
 
+	sudo apt-add-repository -y ppa:bitcoin/bitcoin
+	sudo apt-get update
 	sudo apt-get install libboost-all-dev
-
- db4.8 packages are available [here](https://launchpad.net/~talant/+archive/talant).
-
- Ubuntu precise has packages for libdb5.1-dev and libdb5.1++-dev,
- but using these will break binary wallet compatibility, and is not recommended.
+	sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
 for other Ubuntu & Debian:
 

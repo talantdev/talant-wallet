@@ -24,9 +24,11 @@ for Ubuntu >= 12.04 (please read the 'Berkely DB version warning' below):
 
 ::
 
+    sudo apt-add-repository -y ppa:bitcoin/bitcoin
+    sudo apt-get update
     apt-get install qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
         libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
-        libssl-dev libdb++-dev libminiupnpc-dev
+        libssl-dev libdb++-dev libminiupnpc-dev libdb4.8-dev libdb4.8++-dev
 
 then execute the following:
 
